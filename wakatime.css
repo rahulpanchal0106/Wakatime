@@ -1,0 +1,188 @@
+ul{
+    list-style: none;
+    
+    
+}
+ul li a {
+    text-decoration: none;
+
+}
+
+.upgrade-button a{
+    text-decoration: none;
+    color: rgb(84, 207, 255);
+    font-family: sans-serif;
+    font-size:13px;
+   
+}
+.upgrade-button{
+    border: 0.1px rgb(206, 206, 206) solid;
+    width: 70px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 4px 0px 4px 0px;
+    margin-left: 66%;
+}
+.upgrade-button:hover a{
+    color: rgb(68, 162, 199);
+}
+header{
+    z-index: 3;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding:10px 0px 10px 0px;
+    margin-top:-1px;
+}
+body{
+    padding: 0;
+    margin:0;
+}
+.logo{
+    padding-left:19px;
+    margin: 0px;
+    width:100px;
+    float: left;
+    
+}
+.profile{
+    margin-left: 40px;
+   
+    
+    
+}
+.dash{
+    
+    font-weight:600;
+    border: 1px black solid;
+    border-radius:6px;
+    text-align: center;
+    padding: 8px 10px 8px 10px;
+    
+    margin-left: 40px;
+   
+}
+.dash a{
+    text-decoration: none;
+    color:gray;
+    font-family:sans-serif;
+    font-size:14px;
+}
+.dash:hover a{
+    color:rgb(89, 89, 89);
+}
+.profile:hover .dropdown{
+    display:inline-block;
+    position: absolute;
+    transition: all 0.5s ease;
+}
+.profile:hover .arrow{
+    transform:rotate(90deg);
+    font-size: 15px;
+    font-family: cursive;
+    transition: all 0.5s ease;
+}
+
+.dropdown ul li a{
+    text-align: left;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color:rgb(89, 89, 89);
+    font-family:sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.dropdown ul li{
+    padding: 3px 0px;
+    transition: all 0.5s ease;
+}
+.dropdown{
+    display: none;
+    border-left: 1px grey solid ;
+    border-bottom: 1px grey solid ;
+    border-radius: 3px;
+    background-color: white;
+   position: relative;
+   top: 50px;
+   right: 0px;
+   transition: all 0.5s ease;
+   box-shadow: 0px 6px 15px 0px black;
+  
+}
+.drop{ transition: all 0.5s ease;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.arrow{
+    transition: all 0.5s ease;
+    transform:rotate(-90deg);
+    font-size: 15px;
+    font-family: cursive;
+
+}
+.upgrade-button, .dash, .profile,.logo{
+    display: inline-block;
+    align-items: center;
+}
+.content{
+    margin-left: 12%;
+    margin-top: -15px;
+    background-color: rgb(231, 238, 240);
+}
+
+.left-menu{
+    background-color: #20282f;
+    width: 12%;
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    z-index: 1;
+    
+}
+.hlogo{
+    padding:7px 1px 0px 19px;
+    margin-bottom: -2px;
+    margin-left: -5px;
+    
+}
+.left-menu .menu-top li a{
+    color: rgb(231, 238, 240);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight:700;
+    
+}
+.left-menu .menu-down li a{
+    color: rgb(231, 238, 240);
+    font-family: sans-serif;
+    font-size: 12px;
+    
+    
+}
+
+.left-menu .menu-top li,.left-menu .menu-down li{
+    padding: 5px 5px 5px 18px;
+    margin-left: -38px;
+    width:100%;
+}
+.left-menu .menu-top li:nth-child(1){
+    background-color: #37414a;
+    border-left: 2px rgb(0, 217, 255) solid;
+    padding: 5px 5px 5px 16px;
+}
+.left-menu .menu-top li:hover, .menu-down li:hover{
+    background-color: #37414a;
+    border-left: 2px rgb(0, 217, 255) solid;
+    padding: 5px 5px 5px 16px;
+}
+.menu-top{
+    width: 82%;
+}
+.menu-down{
+    bottom: 0px;
+    position: absolute;
+    width: 82%;
+}
